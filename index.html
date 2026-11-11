@@ -133,7 +133,7 @@ a.btn2{text-decoration:none;display:inline-block}
 </footer>
 </main>
 <script>
-const PIX_KEY="demo@exemplo.com";
+const PIX_KEY="63587761345";
 const PIX_NOME="BRUNA BENITTO",PIX_CIDADE="BRASIL",SINAL=0.3;
 const WHATS_BRUNA="";/* só números, com 55 e DDD. Ex.: 5585999990000 */
 const DEMO=true,VALIDADE_MIN=60;
@@ -288,7 +288,7 @@ $("go").onclick=()=>{
 <p>${esc(nome)}, seu horário de ${s.n} com a Bruna está reservado para ${br(dia)} às ${fmt(sel.h)}. Pague o sinal para confirmar:</p>
 <p class="val">${brl(v)}</p>
 <div class="qr" id="qr"></div>
-<p><b>Chave Pix (celular)</b></p><input class="code" id="chave" readonly value="${esc(PIX_KEY)}">
+<p><b>Chave Pix</b></p><input class="code" id="chave" readonly value="${esc(PIX_KEY)}">
 <button class="btn2" data-copy="chave">Copiar chave</button>
 <p><b>Pix copia e cola</b> (já com o valor)</p><textarea class="code" id="cc" rows="4" readonly>${pixCode(v,"AGD"+id)}</textarea>
 <button class="btn2" data-copy="cc">Copiar código</button>
